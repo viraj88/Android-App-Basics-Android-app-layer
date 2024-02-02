@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/vegSection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Veg Section"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/vegItem1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Veg Item 1"
+        android:layout_below="@id/vegSection"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Repeat the above TextView for other Veg items -->
+
+    <TextView
+        android:id="@+id/nonVegSection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Non-Veg Section"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Repeat TextView for Non-Veg items -->
+
+    <TextView
+        android:id="@+id/beverageSection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beverages"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Repeat TextView for Beverage items -->
+
+</RelativeLayout>
